@@ -24,7 +24,7 @@ RUN pip install --upgrade pip
 
 # copy whole project to your docker home directory. 
 
-COPY . $DOCKERHOME  
+COPY ./src $DOCKERHOME  
 
 # run this command to install all dependencies  
 
